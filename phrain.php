@@ -26,7 +26,7 @@ if( function_exists("ajax_enqueuescripts")==false ){
   function ajax_enqueuescripts() {
     wp_localize_script( 'ajaxloadpost', 'ajax_postajax', array( 'ajaxurl' => admin_url( 'admin-ajax.php' ) ) );
   }
-  add_action('wp_enqueue_scripts', ajax_enqueuescripts);
+  add_action('wp_enqueue_scripts', "ajax_enqueuescripts");
 }
 include(PHRAIN_PATH."ajax/register.phrain.user.php"); // register_phrain_user
 include(PHRAIN_PATH."ajax/get.category.php"); // get_category
