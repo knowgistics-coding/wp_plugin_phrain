@@ -3,15 +3,15 @@
   "author": "Phacharaphon Pinitsunthonsan",
   "author_homepage": "https://fb.com/caminkunick",
   "banners": {
-    "high": "https://cdn-images-1.medium.com/max/2000/1*PyPTzEe8VND5HDhcWfsgkg.png",
-    "low": "https://cdn-images-1.medium.com/max/2000/1*PyPTzEe8VND5HDhcWfsgkg.png"
+    "high": "https://raw.githubusercontent.com/knowgistics-coding/wp_plugin_phrain/main/assets/banner.png",
+    "low": "https://raw.githubusercontent.com/knowgistics-coding/wp_plugin_phrain/main/assets/banner_low.png"
   },
-  "download_url": "https://firebasestorage.googleapis.com/v0/b/johnjadd-3524a.appspot.com/o/_wordpress%2Fplugins%2Fphrain%20-%201.0.2.zip?alt=media&token=1b3cf165-b07a-43fa-aadd-cf3cab8c5ffd",
+  "download_url": "https://github.com/knowgistics-coding/wp_plugin_phrain/releases/download/1.0.3/phrain.zip",
   "downloaded": 10,
   "homepage": "https://dbhouse.cloud/",
   "icons": {
-    "1x": "https://firebasestorage.googleapis.com/v0/b/johnjadd-3524a.appspot.com/o/_wordpress%2Fplugins%2Fphrain%20-%20wob.svg?alt=media&token=44264f32-5537-41c0-a075-bbee5856158e",
-    "2x": "https://firebasestorage.googleapis.com/v0/b/johnjadd-3524a.appspot.com/o/_wordpress%2Fplugins%2Fphrain%20-%20wob.svg?alt=media&token=44264f32-5537-41c0-a075-bbee5856158e"
+    "1x": "https://raw.githubusercontent.com/knowgistics-coding/wp_plugin_phrain/main/assets/icon.svg",
+    "2x": "https://raw.githubusercontent.com/knowgistics-coding/wp_plugin_phrain/main/assets/icon.svg"
   },
   "last_updated": "2019-01-08 00:00:00",
   "name": "Phra.in",

@@ -1,0 +1,19 @@
+{
+  "name": "phrain",
+  "version": "1.0.3",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knowgistics-coding/wp_plugin_phrain.git"
+  },
+  "author": "caminku",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/knowgistics-coding/wp_plugin_phrain/issues"
+  },
+  "homepage": "https://github.com/knowgistics-coding/wp_plugin_phrain#readme"
+}
