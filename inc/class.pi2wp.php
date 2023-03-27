@@ -143,6 +143,10 @@ class addPost extends pi2wp {
       }
       update_post_meta($this->wp_post_id, "phrain_author", $this->data["author"]);
       update_post_meta($this->wp_post_id, "phrain_secondaryTitle", $this->data["secondaryTitle"]);
+      
+      //ANCHOR - SET CATEGORIES
+      $this->cats();
+      
       // Set Map
       if(isset($this->data["map"])){
         update_post_meta($this->wp_post_id, "map", json_encode($this->data["map"], JSON_UNESCAPED_SLASHES));
@@ -155,6 +159,17 @@ class addPost extends pi2wp {
       }
       // Set Thumbnail
       if(isset($this->attach_id)){ set_post_thumbnail($this->wp_post_id, $this->attach_id); }
+    }
+  }
+
+  private function cats(){
+    if(isset($this->data["cat"])){
+      foreach($this->data["cat"] as $key => $cat){
+        if(isset($cat["url"]) && str_contains($cat["url"], $_SERVER["SERVER_NAME"]) && is_array($cat["list"])){
+          $cats = array_keys($cat["list"]);
+          wp_set_post_categories($this->wp_post_id, $cats);
+        }
+      }
     }
   }
 }

@@ -3,7 +3,7 @@
 Plugin Name: Phra.in
 Plugin URI: http://phra.in/
 Description: Use for syncronize with Phra.in (2018-10-02)
-Version: 1.0.2
+Version: 1.0.3
 Author: Knowgistics
 Author URI: https://www.facebook.com/knowgistics/
 License: GPLv2 or later

@@ -1,0 +1,30 @@
+{
+  "active_installs": 10,
+  "author": "Phacharaphon Pinitsunthonsan",
+  "author_homepage": "https://fb.com/caminkunick",
+  "banners": {
+    "high": "https://cdn-images-1.medium.com/max/2000/1*PyPTzEe8VND5HDhcWfsgkg.png",
+    "low": "https://cdn-images-1.medium.com/max/2000/1*PyPTzEe8VND5HDhcWfsgkg.png"
+  },
+  "download_url": "https://firebasestorage.googleapis.com/v0/b/johnjadd-3524a.appspot.com/o/_wordpress%2Fplugins%2Fphrain%20-%201.0.2.zip?alt=media&token=1b3cf165-b07a-43fa-aadd-cf3cab8c5ffd",
+  "downloaded": 10,
+  "homepage": "https://dbhouse.cloud/",
+  "icons": {
+    "1x": "https://firebasestorage.googleapis.com/v0/b/johnjadd-3524a.appspot.com/o/_wordpress%2Fplugins%2Fphrain%20-%20wob.svg?alt=media&token=44264f32-5537-41c0-a075-bbee5856158e",
+    "2x": "https://firebasestorage.googleapis.com/v0/b/johnjadd-3524a.appspot.com/o/_wordpress%2Fplugins%2Fphrain%20-%20wob.svg?alt=media&token=44264f32-5537-41c0-a075-bbee5856158e"
+  },
+  "last_updated": "2019-01-08 00:00:00",
+  "name": "Phra.in",
+  "num_ratings": 0,
+  "rating": 0,
+  "requires": "5.0.0",
+  "sections": {
+    "changelog": "(Recommended) Changelog. <p>This section will be displayed by default when the user clicks 'View version x.y.z details'.</p>",
+    "custom_section": "This is a custom section labeled 'Custom Section'.",
+    "description": "This plugin for syncronize with Website 'Phra.in'",
+    "installation": "(Recommended) Installation instructions."
+  },
+  "tested": "5.0.2",
+  "upgrade_notice": "",
+  "version": "1.0.3"
+}
