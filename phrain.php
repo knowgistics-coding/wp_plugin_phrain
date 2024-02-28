@@ -10,7 +10,9 @@ License: GPLv2 or later
 Text Domain: phrain
 */
 
-require dirname(__FILE__).'/plugin-update-checker-master/plugin-update-checker.php';
+require dirname(__FILE__)."/phra-in-core/phra-in-core.php";
+
+require dirname(__FILE__).'/puc/plugin-update-checker.php';
 $MyUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 	'https://johnjadd-3524a.firebaseio.com/wordpress/plugins.json', //Metadata URL.
 	__FILE__, //Full path to the main plugin file.

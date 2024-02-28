@@ -1,4 +1,5 @@
 <?php require_once(PHRAIN_PATH."inc/header.php"); ?>
+
 <form action="javascript:void(0)" onsubmit="return register()" style="text-align:center;padding:0 1rem;margin:3rem 0;">
   <input id="loggin_email" name="email" type="text" placeholder="E-mail" required>
   <input id="loggin_pass" name="pass" type="password" placeholder="Password" required>
