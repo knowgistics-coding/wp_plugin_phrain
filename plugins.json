@@ -6,14 +6,14 @@
     "high": "https://raw.githubusercontent.com/knowgistics-coding/wp_plugin_phrain/main/assets/banner.png",
     "low": "https://raw.githubusercontent.com/knowgistics-coding/wp_plugin_phrain/main/assets/banner_low.png"
   },
-  "download_url": "https://github.com/knowgistics-coding/wp_plugin_phrain/releases/download/1.0.3/phrain.1.0.3.zip",
+  "download_url": "https://github.com/knowgistics-coding/wp_plugin_phrain/releases/download/1.0.4/phrain.1.0.4.zip",
   "downloaded": 10,
   "homepage": "https://github.com/knowgistics-coding/wp_plugin_phrain",
   "icons": {
     "1x": "https://raw.githubusercontent.com/knowgistics-coding/wp_plugin_phrain/main/assets/icon.svg",
     "2x": "https://raw.githubusercontent.com/knowgistics-coding/wp_plugin_phrain/main/assets/icon.svg"
   },
-  "last_updated": "2024-02-28 17:13:42",
+  "last_updated": "2024-02-28 17:14:41",
   "name": "Phra.in",
   "num_ratings": 0,
   "rating": 0,
@@ -26,5 +26,5 @@
   },
   "tested": "5.0.2",
   "upgrade_notice": "",
-  "version": "1.0.3"
+  "version": "1.0.4"
 }

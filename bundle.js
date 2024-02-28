@@ -14,9 +14,10 @@ if (status.not_added.length > 0) {
   );
 }
 
-await exec('npm version patch');
-
 const packageJson = JSON.parse(fs.readFileSync("./package.json", "utf8"));
+packageJson.version = packageJson.version.split(".");
+packageJson.version[2] = parseInt(packageJson.version[2]) + 1;
+packageJson.version = packageJson.version.join(".");
 const pluginsJson = JSON.parse(fs.readFileSync("./plugins.json", "utf8"));
 
 pluginsJson.version = packageJson.version;
