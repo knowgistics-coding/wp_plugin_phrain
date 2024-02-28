@@ -16,8 +16,8 @@ if (status.not_added.length > 0) {
 
 await exec('npm version patch');
 
-const packageJson = require("./package.json");
-const pluginsJson = require("./plugins.json");
+const packageJson = JSON.parse(fs.readFileSync("./package.json", "utf8"));
+const pluginsJson = JSON.parse(fs.readFileSync("./plugins.json", "utf8"));
 
 pluginsJson.version = packageJson.version;
 pluginsJson.last_updated = moment().format("YYYY-MM-DD HH:mm:ss");
