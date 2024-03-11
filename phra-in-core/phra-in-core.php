@@ -57,7 +57,7 @@ class Post {
         "post_type" => "post",
         "post_date" => date("Y-m-d H:i:s", floor($data["date"] / 1000)),
         "post_modified" => date("Y-m-d H:i:s", floor($data["edit"] / 1000)),
-        "post_category" => $this->category_filter($data["category"]),
+        "post_category" => $this->category_filter($data["cat"]),
       );
 
       $this->meta["phrain_post_id"] = $ID;
