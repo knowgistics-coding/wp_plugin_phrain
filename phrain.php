@@ -12,13 +12,6 @@ Text Domain: phrain
 
 require dirname(__FILE__)."/phra-in-core/phra-in-core.php";
 
-require dirname(__FILE__).'/puc/plugin-update-checker.php';
-$MyUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
-	'https://raw.githubusercontent.com/knowgistics-coding/wp_plugin_phrain/main/plugins.json', //Metadata URL.
-	__FILE__, //Full path to the main plugin file.
-	'phrain' //Plugin slug. Usually it's the same as the name of the directory.
-);
-
 define("PHRAIN_PATH", plugin_dir_path( __FILE__ ));
 
 /*--------------------------------------------------------------

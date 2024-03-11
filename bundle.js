@@ -41,4 +41,4 @@ await git.commit(
 );
 await git.push("origin", "main");
 
-await exec(`dir-archiver --src . --dest ../phrain.${pluginsJson.version}.zip --exclude .DS_Store .stylelintrc.json .eslintrc .git .gitattributes .github .gitignore README.md composer.json composer.lock node_modules vendor package-lock.json package.json .travis.yml phpcs.xml.dist sass style.css.map yarn.lock src bundle.js`);
+await exec(`dir-archiver --src . --dest ../phrain.${pluginsJson.version}.zip --exclude .DS_Store .stylelintrc.json .eslintrc .git .gitattributes .github .gitignore README.md composer.json composer.lock node_modules vendor package-lock.json package.json .travis.yml phpcs.xml.dist sass style.css.map yarn.lock src bun.lockb bundle.js`);
