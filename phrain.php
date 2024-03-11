@@ -34,8 +34,9 @@ include(PHRAIN_PATH."ajax/update.image.meta.php"); // update_image_meta
 function wppi_post(){
   header('Content-Type: application/json; charset=utf-8');
   header('Access-Control-Allow-Origin: *');
-  $addPost = new addPost( isset($_POST["data"]) ? $_POST["data"] : $_GET["data"] );
-  echo $addPost->wp_post_id;
+  $post = new PhraIn\Core\Post();
+  $post->fetch($_REQUEST["data"]);
+  echo json_encode($post->upsert(true));
   wp_die();
 }
 add_action('wp_ajax_nopriv_wppi_post', 'wppi_post' );

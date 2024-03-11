@@ -94,7 +94,7 @@ class Post {
   }
 
   // ACNHOR - upsert
-  public function upsert(){
+  public function upsert($return_id = false){
     $post = $this->get();
     if(!!$post){
       wp_update_post(array_merge($this->data, array("ID"=>$post->ID)));
@@ -113,7 +113,7 @@ class Post {
       delete_post_thumbnail($this->data["ID"]);
     }
 
-    return $this->data["ID"] ? get_permalink($this->data["ID"]) : NULL;
+    return $this->data["ID"] ? ( $return_id ? $this->data["ID"] : get_permalink($this->data["ID"]) ) : NULL;
   }
 
   // ANCHOR - delete
