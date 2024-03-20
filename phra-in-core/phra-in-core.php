@@ -169,10 +169,14 @@ class Post {
   
   // ANCHOR - category_filter
   protected function category_filter($catag){
-    $key = md5(get_site_url());
-    if ($catag[$key] !== false ? isset($catag[$key]["list"]) : false) {
+    $key = get_site_url();
+    $cats = array();
+    foreach($catag as $cat){
+      $cats[$cat['url']] = $cat;
+    }
+    if ($cats[$key] !== false ? isset($cats[$key]["list"]) : false) {
       $result = array();
-      foreach ($catag[$key]["list"] as $k => $v) {
+      foreach ($cats[$key]["list"] as $k => $v) {
         if (!!$v) {
           $result[] = $k;
         }
